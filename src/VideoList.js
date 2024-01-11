@@ -1,68 +1,23 @@
 import React from 'react';
 
-export default function VideoList(){
-    return (     
-        <ul className="video-list">
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-          <li>
-              <div>
-                  <video width="1000" height="1000" className="video-widget" controls>
-                    <source src="./assets/video.mp4" type="video/mp4" />         
-                    Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <a href="#">ListItem 1</a>
-                </div>
-          </li>
-        </ul>     
-    );
+export default function VideoList({allVideos}){
+  return false;
+    // return (     
+    //     <ul className="video-list">
+    //       {
+    //         allVideos.map((item) => {
+    //           let imageURL = item.snippet.thumbnails.high.url;
+    //           let title = item.snippet.title;
+    //           return (
+    //               <li>
+    //                   <div>
+    //                     <img width="300" height="100" src={imageURL} title={title} />
+    //                     <h3>{title}</h3>
+    //                   </div>
+    //               </li>
+    //           )
+    //         })
+    //       }
+    //     </ul>     
+    // );
    }
